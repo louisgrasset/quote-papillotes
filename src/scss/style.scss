@@ -95,16 +95,6 @@ body {
       width: 1rem;
     }
   }
-  #attribution {
-    position: fixed;
-    bottom: 45px;
-    left: 45px;
-    padding: 5px;
-    a {
-      text-decoration: underline;
-      color: inherit;
-    }
-  }
   #error {
     position: fixed;
     left: 0;
@@ -124,4 +114,27 @@ body {
       transform: translateY(0);
     }
   }
+  .attribution {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    width: 17rem;
+  }
+
+  .attribution__container {
+      font-size: 16px;
+      padding: .3rem .8rem;
+      border-radius: 1rem;
+      background-color: #fff;
+      box-shadow: 0 0 .5rem hsla(0,0%,47.8%,.16);
+      color: #000;
+  }
+
+  .attribution__container a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: 700;
+  }
+
 }
